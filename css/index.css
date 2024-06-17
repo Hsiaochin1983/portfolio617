@@ -1,0 +1,63 @@
+/* 各區背景圖 */
+/* #home{background-image: url("../images/1100BANNER.jpg")} */
+#about{background-image: url("../images/aibanner.jpg")}
+#news{background-image: url("../images/profio.jpg")}
+#contact{background-color: blanchedalmond;}
+#service{background-color: aquamarine;}
+
+/* 將視窗的寬高設定為滿版 */
+html,
+body{
+     width:100%;
+     height: 100% ;
+     }
+/* 各區共同背景相關設定 */
+section{
+    
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;    
+    background-position: left top;
+    padding-top: 160px;
+}
+/* 各區文字範圍 */
+.txt-bg{
+    background-color: rgba(255,255,255, 6);
+    border-radius: 50px;
+    text-align: justify;
+    padding: 50px;
+    width: 800px;
+    margin: auto;
+}
+.txt-bg h2{text-align: center;}
+i{
+    color: brown
+}
+#home .imgBox{
+    width: 80%;
+    height: 80%;
+    margin: auto;
+}
+
+
+
+#home img{
+    width: 100%;
+    height: 100%;
+}
+#about .imgBox{
+    width: 80%;
+    height: 80%;
+    margin: auto;
+}
+#about img{
+    width: 100%;
+    height: 100%;
+}
+.container{float: right;}
+#container .imgbox3{
+    width:50%;
+    height: 50;
+    margin: auto;
+    
+}
