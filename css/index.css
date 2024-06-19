@@ -1,7 +1,7 @@
 /* 各區背景圖 */
 /* #home{background-image: url("../images/1100BANNER.jpg")} */
 #about{background-image: url("../images/aibanner.jpg")}
-#news{background-image: url("../images/profio.jpg")}
+#news{background-color: rgb(32, 99, 185);}
 #contact{background-color: blanchedalmond;}
 #service{background-color: aquamarine;}
 
@@ -26,7 +26,10 @@ section{
     border-radius: 50px;
     text-align: justify;
     padding: 50px;
-    width: 800px;
+    width: 600px;
+    
+    /* width: 800px; */
+    
     margin: auto;
 }
 .txt-bg h2{text-align: center;}
@@ -55,9 +58,17 @@ i{
     height: 100%;
 }
 .container{float: right;}
-#container .imgbox3{
-    width:50%;
-    height: 50;
-    margin: auto;
+
+#contact .imgbox3{
+
+    display: flex;
+    justify-content: flex-end;
     
+    /* display: inline-block;
+    float:left; */
+}
+#news .LOGOBOX{
+    float: left;
+     /* display: flex;
+    justify-content: flex-start; */
 }
